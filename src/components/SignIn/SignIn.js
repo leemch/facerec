@@ -20,7 +20,7 @@ onPasswordChange = (event) => {
 }
 
 onSubmitSignIn = () => {
-  fetch("http://mighty-ravine-89387.herokuapp.com/signin", {
+  fetch("https://mighty-ravine-89387.herokuapp.com/signin", {
     method: "post",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({
